@@ -1,0 +1,33 @@
+@theme "~/.config/rofi/nord.rasi"
+configuration {
+		show-icons: true;
+		//modi: "combi,drun,calc,emoji:/usr/bin/rofimoji";
+		modi: "drun,calc";
+		//combi-modi: "drun,emoji:/usr/bin/rofimoji";
+		show: "drun";
+        font: "CaskaydiaCove Nerd Font Mono";
+}
+
+configuration {
+    font: "CaskaydiaCove Nerd Font Mono 16";
+    line-margin: 10;
+
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    display-emoji: "ﲃ";
+    display-calc: "";
+    display-clipboard: "";
+    show-icons:     true;
+}
+
+listview {
+	lines: 6;
+	columns: 1;
+}
+
+window {
+	width: 50%;
+}
