@@ -10,7 +10,8 @@ This is my first time using a window manager instead of a fully fledged desktop 
 ## Copying The Entire Setup
 If you'd like to copy the entire setup, follow these steps:
 
-### Install These Programs
+### Install The Following 
+Packages
 - rofi (dmenu replacement)
 - rofi-greenclip (use rofi as a clipboard manager)
 - rofimoji (use rofi to get emojis and symbols)
@@ -25,7 +26,12 @@ If you'd like to copy the entire setup, follow these steps:
 - lxsession (x session manager?)
 - picom (compositor)
 - sxhkd (manage keyboard shortcuts)
-- FONT: CaskaydiaCove Nerd Font Mono
+  
+Fonts
+- CaskaydiaCove Nerd Font Mono
+  
+Themes
+- Nordic GTK Theme
 
 ### Install Konsave
 Used to copy config files
