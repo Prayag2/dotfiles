@@ -1,8 +1,10 @@
 <center>
+
 # Nord BSPWM Rice
+
 This is my first time using a window manager instead of a fully fledged desktop environment and I'm loving it so far!
 
-<img src="https://github.com/prayag2/dotfiles/main/screenshots/ss.jpg" width=150>
+<img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss.jpg" width=150>
 </center>
 
 ## Copying The Entire Setup
