@@ -1,0 +1,19 @@
+#TabsToolbar, #titlebar, #main-window, #navigator-toolbox {
+	appearance: none !important;
+	-moz-appearance: none !important;
+	background-color: rgba(40,40,40,0.2) !important;
+	background-image: none !important;
+}
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon, .tab-background:is([selected], [multiselected]) {
+	background-color: rgba(0,0,0,0) !important;
+}
+.browser-toolbar:not(.titlebar-color) {
+	background-color: rgba(0,0,0,0.5) !important;
+}
+#urlbar-background, #searchbar {
+	background-color: rgba(40,40,40,0.9) !important;
+}
+#identity-box.extensionPage #identity-icon-labels,
+#identity-box.extensionPage #identity-icon-label {
+	display:none !important;
+}
