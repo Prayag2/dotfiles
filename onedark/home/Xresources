@@ -1,0 +1,7 @@
+*.colorBackground: #282828
+*.colorAccent: #61aff0
+*.inactiveBorder: #4d5564
+*.colorTransparent: #00
+
+Sxiv.background: #20242b
+Sxiv.foreground: #dcdfe4
