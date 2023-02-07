@@ -14,6 +14,10 @@
 <summary>OneDark</summary>
 <img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss-onedark.png" style="width: 100%">
 </details>
+<details>
+<summary>PyWal</summary>
+<img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss-pywal.gif" style="width: 100%">
+</details>
 </center>
 
 ## Details

@@ -1,0 +1,137 @@
+/**
+ * Nordic rofi theme
+ * Adapted by undiabler <undiabler@gmail.com>
+ *
+ * Nord Color palette imported from https://www.colortheme.com/
+ *
+ */
+* {
+	color0: #2e3440;
+	color1: #3b4252;
+	color2: #434c5e;
+	color3: #4c566a;
+
+	color4: #d8dee9;
+	color5: #e5e9f0;
+	color6: #eceff4;
+
+	color7: #8fbcbb;
+	color8: #88c0d0;
+	color9: #81a1c1;
+	color10: #5e81ac;
+	color11: #bf616a;
+
+	color12: #d08770;
+	color13: #ebcb8b;
+	color14: #a3be8c;
+	color15: #b48ead;
+
+    foreground:  @color9;
+    backlight:   #ccffeedd;
+    background-color:  transparent;
+    
+    highlight:     underline bold #eceff4;
+
+    transparent: rgba(46,52,64,0);
+}
+
+window {
+    location: center;
+    anchor:   center;
+    transparency: "screenshot";
+    padding: 10px;
+    border:  0px;
+
+    background-color: @transparent;
+    border-radius: 4px;
+    spacing: 0;
+    children:  [mainbox];
+    orientation: horizontal;
+}
+prompt {
+    font: "CaskaydiaCove Nerd Font 26";
+    vertical-align: 0.5;
+}
+entry {
+    vertical-align: 0.5;
+}
+
+mainbox {
+    spacing: 0;
+    children: [ inputbar, message, listview ];
+}
+
+message {
+    color: @color0;
+    padding: 5;
+    border-color: @color10;
+    border:  0px 4px 4px 4px;
+    background-color: @color7;
+}
+textbox {
+    color: @color0;
+}
+
+inputbar {
+    color: @color6;
+    padding: 8px 8px 8px 18px;
+    background-color: #3b4252;
+
+    border: 4px;
+    border-color: @color10;
+    border-radius: 8px 8px 0 0;
+}
+
+entry, prompt, case-indicator {
+    text-font: inherit;
+    text-color:inherit;
+}
+
+prompt {
+    margin: 0px 1em 0em 0em ;
+}
+
+listview {
+    padding: 8px;
+    border-color: @color10;
+    border: 0px 4px 4px 4px;
+    background-color: rgba(46,52,64,0.9);
+    border-radius: 0px 0px 8px 8px;
+    dynamic: false;
+}
+
+element {
+    padding: 8px;
+    vertical-align: 0.5;
+    background-color: transparent;
+    color: @foreground;
+    text-color: rgb(216, 222, 233);
+    border-radius: 8px;
+}
+
+element-icon {
+    size: 20px;
+}
+element selected.normal {
+	background-color: @color7;
+	text-color: #2e3440;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+button {
+    padding: 6px;
+    color: @foreground;
+    horizontal-align: 0.5;
+
+    border: 4px 0px 4px 4px;
+    border-color: @foreground;
+}
+
+button selected normal {
+    border: 4px 0px 4px 4px;
+    border-color: @foreground;
+}
