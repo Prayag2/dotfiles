@@ -42,6 +42,8 @@
 ### GTK Themes
 - **Nord Rice**: Nordic GTK Theme
 - **BlurBox**: Breeze GTK with Gruvbox colours
+- OneDark: OneDark GTK Theme
+- PyWal: FlatColor GTK (Included with WPGTK)
 
 ## Copying an Entire Rice
 
@@ -51,11 +53,17 @@
 - You can install [konsave](https://github.com/prayag2/konsave) and import the whole rice using `konsave --import <path to file>` followed by `konsave --apply <rice name>` to apply it!
 - Just make sure to install the programs and fonts listed above! (You'll have to download the wallpaper manually though)
 - Run the following commands before rebooting:
-  
+
+For Other Rices
 ```bash
 chmod +x ~/.config/bspwm/bspwmrc
-chmod +x ~/.config/polybar/scripts/*
+chmod +x ~/.config/polybar/scripts/*.sh
 chmod +x ~/.config/polybar/launch.sh
-chmod +x ~/.config/sxhkd/reload.sh
-chmod +x ~/.xinitrc
+chmod +x ~/.config/sxhkd/*.sh
+```
+
+For PyWal Rice
+```bash
+chmod +x ~/.config/scripts/*.sh
+chmod +x ~/.config/bspwm/bspwmrc
 ```
