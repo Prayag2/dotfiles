@@ -18,6 +18,10 @@
 <summary>PyWal</summary>
 <img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss-pywal.gif" style="width: 100%">
 </details>
+<details>
+<summary>Moonlight and the Roaring Falls</summary>
+<img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss-moonlight.gif" style="width: 100%">
+</details>
 </center>
 
 ## Details
@@ -44,6 +48,7 @@
 - **BlurBox**: Breeze GTK with Gruvbox colours
 - OneDark: OneDark GTK Theme
 - PyWal: FlatColor GTK (Included with WPGTK)
+- Moonlight: Linea Nord Color (From WPGTK)
 
 ## Copying an Entire Rice
 
@@ -62,7 +67,7 @@ chmod +x ~/.config/polybar/launch.sh
 chmod +x ~/.config/sxhkd/*.sh
 ```
 
-For PyWal Rice
+For PyWal and Moonlight Rice
 ```bash
 chmod +x ~/.config/scripts/*.sh
 chmod +x ~/.config/bspwm/bspwmrc
