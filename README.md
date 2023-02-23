@@ -20,7 +20,7 @@
 </details>
 <details>
 <summary>Moonlight and the Roaring Falls</summary>
-<img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss-moonlight.gif" style="width: 100%">
+<img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss-moonlight.png" style="width: 100%">
 </details>
 </center>
 
