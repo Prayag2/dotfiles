@@ -1,5 +1,5 @@
 #!/bin/bash
-PASS="1010"
+PASS=$(yad --entry --text="Enter Password")
 
 /usr/bin/wpg -a "$1"
 /usr/bin/wpg -s "$1"
