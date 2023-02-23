@@ -1,0 +1,4 @@
+action = copy
+files = [emojis, math, nerd_font]
+selector = rofi
+max-recent = 0

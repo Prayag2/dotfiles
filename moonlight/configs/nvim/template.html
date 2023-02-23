@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>%title%</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<style>
+		li,p,h1,h2,h3,h4,h5,h6,div {
+			font-family: "c059";
+		}
+		p,li,div {
+			font-size: 18px;
+		}
+		.MathJax * {
+			font-family: "C059" !important;
+		}
+		.MathJax {
+			font-size: 24px !important;
+		}
+	</style>
+	<script>
+		window.MathJax     =   {
+			tex:    {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			},
+			svg:    {
+				fontCache:  'global'
+			}
+		};
+	</script>
+</head>
+<body>
+	 <div class="container">
+		%content%
+    </div>
+</body>
+</html>

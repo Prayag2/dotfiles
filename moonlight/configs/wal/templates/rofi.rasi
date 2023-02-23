@@ -1,0 +1,129 @@
+configuration {{
+		show-icons: true;
+		modi: "drun,run";
+		show: "drun";
+        icon-theme: "Papirus-Dark";
+        drun {{
+            fallback-icon: "package-x-generic";
+        }}
+}}
+
+configuration {{
+    font: "Iosevka Nerd Font Mono 16";
+    line-margin: 10;
+
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    display-emoji: "ﲃ";
+    display-calc: "";
+    display-clipboard: "";
+    fixed-num-lines: false;
+    show-icons:     true;
+    transparency: "real";
+}}
+
+// THEME
+* {{
+    vertical-align: 0.5;
+    
+    // Colors
+    bg: {color0};
+    fg: {color15};
+    selection: {color2};
+    transparent: #00000000;
+    winRadius: 10px;
+    eleRadius: 7px;
+}}
+window {{
+    border: 2px;
+    border-radius: @winRadius;
+    border-color: @selection;
+}}
+window {{
+    background-color: @bg;
+}}
+
+
+mainbox {{
+    children: ["inputbar", "message", "listview", "mode-switcher"];
+}}
+
+mainbox,inputbar,listview,message,textbox,prompt,entry{{
+    background-color: @transparent;
+}}
+
+// Inputbar
+inputbar {{
+    padding: 2px;
+    children: [prompt,entry];
+}}
+prompt {{
+    font: "monospace 22";
+    padding: 0 16px 0 8px;
+    color: @fg;
+}}
+entry {{
+    color: @fg;
+    placeholder: "Search..";
+}}
+
+// Element
+listview {{
+    border: none;
+    scrollbar: false;
+}}
+element, message {{
+    padding: 5px;
+    border-radius: @eleRadius;
+}}
+element selected.normal, element normal.active, element selected.active {{
+    background-color: @selection;
+}}
+element normal.normal, element alternate.normal, scrollbar {{
+    background-color: @transparent;
+}}
+element-icon, element-text {{
+    background-color: @transparent;
+    color: @fg;
+}}
+element-icon {{
+    padding: 0 8px 0 0;
+}}
+scrollbar {{
+    handle-color: @fg;
+}}
+
+// Message
+message {{
+    border: none;
+}}
+textbox {{
+    color: @fg;
+}}
+
+mode-switcher{{
+    enabled: false;
+    spacing:                     10px;
+    margin:                      2px 0 0 0;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}}
+button {{
+    padding:                     5px 10px;
+    border:                      0px solid;
+    border-radius:               @eleRadius;
+    border-color:                @fg;
+    background-color:            @bg;
+    text-color:                  inherit;
+    cursor:                      pointer;
+}}
+button selected {{
+    background-color: @selection; 
+    text-color: @fg;
+}}
