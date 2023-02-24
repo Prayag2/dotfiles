@@ -35,7 +35,7 @@
 - thunar (file manager)
 - playerctl (used to control media)
 - pamixer (pulseaudio mixer)
-- pulseaudio (for audio)
+- pulseaudio in older rices and pipewire in newer ones (for audio)
 - BSPWM (window manager)
 - nitrogen (wallpaper selector)
 - lxsession (x session manager?)
@@ -44,6 +44,7 @@
   
 ### Fonts
 - CaskaydiaCove Nerd Font Mono
+- Iosveka Nerd Font Mono
   
 ### GTK Themes
 - **Nord Rice**: Nordic GTK Theme
