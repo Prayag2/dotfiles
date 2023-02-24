@@ -1,4 +1,6 @@
 <center>
+---
+
 <img src="https://github.com/Prayag2/dotfiles/blob/main/assets/logo.png" style="width: 100%">
 
 ---
@@ -57,12 +59,21 @@
 
 > **NOTE**: Before copying this setup, please note that there are a few scripts like `getWifiStatus.sh` which are highly specific to my setup.
 
+- Clone the repo using `cd ~/Downloads && git clone https://github.com/prayag2/dotfiles`
 - Each rice folder in this repository has a `.knsv` file inside it (which is actually an archive of all the important files).
-- You can install [konsave](https://github.com/prayag2/konsave) and import the whole rice using `konsave --import <path to file>` followed by `konsave --apply <rice name>` to apply it!
-- Just make sure to install the programs and fonts listed above! (You'll have to download the wallpaper manually though)
-- Run the following commands before rebooting:
+- Install [konsave](https://github.com/prayag2/konsave), the programs, and the fonts listed above.
+- Import the preferred rice using `konsave --import <path to knsv file>` 
+- Apply the rice using `konsave --apply <rice name>`
+- Run the following commands and reboot:
 
-For Other Rices
+For Newer Rices
+```bash
+ln -s ~/.config/scripts/*.sh ~/.local/bin/
+chmod +x ~/.config/scripts/*.sh
+chmod +x ~/.config/bspwm/bspwmrc
+```
+
+For Nord, BlurBox and OneDark-
 ```bash
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/polybar/scripts/*.sh
@@ -70,8 +81,3 @@ chmod +x ~/.config/polybar/launch.sh
 chmod +x ~/.config/sxhkd/*.sh
 ```
 
-For PyWal and Moonlight Rice
-```bash
-chmod +x ~/.config/scripts/*.sh
-chmod +x ~/.config/bspwm/bspwmrc
-```
