@@ -44,7 +44,7 @@
   
 ### Fonts
 - CaskaydiaCove Nerd Font Mono
-- Iosveka Nerd Font Mono
+- Iosevka Nerd Font Mono
   
 ### GTK Themes
 - **Nord Rice**: Nordic GTK Theme
@@ -67,7 +67,7 @@
 For Newer Rices
 ```bash
 ln -s ~/.config/scripts/*.sh ~/.local/bin/
-chmod +x ~/.config/scripts/*.sh
+chmod +x ~/.local/bin/*.sh
 chmod +x ~/.config/bspwm/bspwmrc
 ```
 
