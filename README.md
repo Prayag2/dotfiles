@@ -1,6 +1,8 @@
 <center>
+<img src="https://github.com/Prayag2/dotfiles/blob/main/assets/logo.png" style="width: 100%">
 
-# My Dotfiles
+---
+
 
 <details>
 <summary>Nord (My First Rice)</summary>
