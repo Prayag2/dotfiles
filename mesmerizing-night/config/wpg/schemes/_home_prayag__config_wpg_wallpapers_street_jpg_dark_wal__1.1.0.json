@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/street.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#071928",
+        "foreground": "#9fc8d1",
+        "cursor": "#9fc8d1"
+    },
+    "colors": {
+        "color0": "#071928",
+        "color1": "#9A1235",
+        "color2": "#A0224F",
+        "color3": "#CB295A",
+        "color4": "#BE916A",
+        "color5": "#4B658E",
+        "color6": "#CB5999",
+        "color7": "#9fc8d1",
+        "color8": "#6f8c92",
+        "color9": "#9A1235",
+        "color10": "#A0224F",
+        "color11": "#CB295A",
+        "color12": "#BE916A",
+        "color13": "#4B658E",
+        "color14": "#CB5999",
+        "color15": "#9fc8d1"
+    }
+}

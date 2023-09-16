@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/forestoflight.png",
+    "alpha": "100",
+    "special": {
+        "background": "#011314",
+        "foreground": "#bfcab1",
+        "cursor": "#bfcab1"
+    },
+    "colors": {
+        "color0": "#011314",
+        "color1": "#2D6354",
+        "color2": "#4E7151",
+        "color3": "#428567",
+        "color4": "#619369",
+        "color5": "#B1A141",
+        "color6": "#90A96C",
+        "color7": "#bfcab1",
+        "color8": "#858d7b",
+        "color9": "#2D6354",
+        "color10": "#4E7151",
+        "color11": "#428567",
+        "color12": "#619369",
+        "color13": "#B1A141",
+        "color14": "#90A96C",
+        "color15": "#bfcab1"
+    }
+}

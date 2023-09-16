@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/minimalmountainsdark.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121218",
+        "foreground": "#bfbcbd",
+        "cursor": "#bfbcbd"
+    },
+    "colors": {
+        "color0": "#121218",
+        "color1": "#615E63",
+        "color2": "#5F6065",
+        "color3": "#6C6A6E",
+        "color4": "#837B7A",
+        "color5": "#807E81",
+        "color6": "#827E81",
+        "color7": "#bfbcbd",
+        "color8": "#858384",
+        "color9": "#615E63",
+        "color10": "#5F6065",
+        "color11": "#6C6A6E",
+        "color12": "#837B7A",
+        "color13": "#807E81",
+        "color14": "#827E81",
+        "color15": "#bfbcbd"
+    }
+}

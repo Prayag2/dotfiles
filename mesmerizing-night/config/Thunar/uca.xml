@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1674808831371320-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>preferences-desktop-wallpaper</icon>
+	<name>Set as wallpaper</name>
+	<submenu></submenu>
+	<unique-id>1674905833694270-1</unique-id>
+	<command>~/.local/bin/updatecolors-hyprland.sh %f</command>
+	<description>Set as wallpaper</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>cloud-upload</icon>
+	<name>Upload to Imgur</name>
+	<submenu></submenu>
+	<unique-id>1674908025769973-1</unique-id>
+	<command>IMGUR_XCLIP_OPTIONS=&quot;-selection clip&quot; imgur.sh %f &amp;&amp; notify-send &quot;Imgur link copied to clipboard&quot;</command>
+	<description>Uploads the selected image to Imgur</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>nvim</icon>
+	<name>Open with Neovim</name>
+	<submenu></submenu>
+	<unique-id>1675070372967400-1</unique-id>
+	<command>alacritty -e nvim %f</command>
+	<description>Opens the selected file with Neovim.</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>org.gnome.baobab</icon>
+	<name>Analyze Disk Usage</name>
+	<submenu></submenu>
+	<unique-id>1676007378882972-1</unique-id>
+	<command>baobab %f</command>
+	<description>Check disk usage</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>system-run</icon>
+	<name>Execute File</name>
+	<submenu></submenu>
+	<unique-id>1678605423289981-1</unique-id>
+	<command>sh -c &quot;%f&quot;</command>
+	<description>Executes the selected file</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>document-edit</icon>
+	<name>Rename Files to Match Convention</name>
+	<submenu></submenu>
+	<unique-id>1683534319598431-1</unique-id>
+	<command>~/.local/bin/rename-files.sh %f</command>
+	<description>Renames everything in the current directory to match my naming convention.</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>object-rotate-right</icon>
+	<name>Rotate Image Clockwise</name>
+	<submenu></submenu>
+	<unique-id>1686824008220592-1</unique-id>
+	<command>/usr/bin/convert &quot;%f&quot; -rotate 90 &quot;%f&quot;</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+</actions>

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/WallHaven/wallhaven-5ggxd7_1600x900.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c18",
+        "foreground": "#e6e0d1",
+        "cursor": "#e6e0d1"
+    },
+    "colors": {
+        "color0": "#0a0c18",
+        "color1": "#4F7886",
+        "color2": "#378387",
+        "color3": "#6B9AA2",
+        "color4": "#9AB0AA",
+        "color5": "#C8B8A3",
+        "color6": "#B2C6B9",
+        "color7": "#e6e0d1",
+        "color8": "#a19c92",
+        "color9": "#4F7886",
+        "color10": "#378387",
+        "color11": "#6B9AA2",
+        "color12": "#9AB0AA",
+        "color13": "#C8B8A3",
+        "color14": "#B2C6B9",
+        "color15": "#e6e0d1"
+    }
+}

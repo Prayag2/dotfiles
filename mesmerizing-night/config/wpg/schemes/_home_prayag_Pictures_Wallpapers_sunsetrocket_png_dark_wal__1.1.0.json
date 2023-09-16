@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/sunsetrocket.png",
+    "alpha": "100",
+    "special": {
+        "background": "#080F37",
+        "foreground": "#afbbcc",
+        "cursor": "#afbbcc"
+    },
+    "colors": {
+        "color0": "#080F37",
+        "color1": "#2F4775",
+        "color2": "#A24952",
+        "color3": "#E85D5A",
+        "color4": "#295890",
+        "color5": "#5A6E9E",
+        "color6": "#007CC3",
+        "color7": "#afbbcc",
+        "color8": "#7a828e",
+        "color9": "#2F4775",
+        "color10": "#A24952",
+        "color11": "#E85D5A",
+        "color12": "#295890",
+        "color13": "#5A6E9E",
+        "color14": "#007CC3",
+        "color15": "#afbbcc"
+    }
+}

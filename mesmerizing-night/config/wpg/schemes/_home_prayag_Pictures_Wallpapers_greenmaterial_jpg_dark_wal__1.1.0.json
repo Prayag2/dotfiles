@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/greenmaterial.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0b0a",
+        "foreground": "#99d8c4",
+        "cursor": "#99d8c4"
+    },
+    "colors": {
+        "color0": "#0a0b0a",
+        "color1": "#256C56",
+        "color2": "#2B7C63",
+        "color3": "#2F8A6D",
+        "color4": "#38A07F",
+        "color5": "#3CAE89",
+        "color6": "#41BB94",
+        "color7": "#99d8c4",
+        "color8": "#6b9789",
+        "color9": "#256C56",
+        "color10": "#2B7C63",
+        "color11": "#2F8A6D",
+        "color12": "#38A07F",
+        "color13": "#3CAE89",
+        "color14": "#41BB94",
+        "color15": "#99d8c4"
+    }
+}

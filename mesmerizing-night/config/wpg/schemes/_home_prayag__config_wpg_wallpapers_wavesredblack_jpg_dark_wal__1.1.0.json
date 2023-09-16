@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/wavesredblack.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#283031",
+        "foreground": "#e1e9e2",
+        "cursor": "#e1e9e2"
+    },
+    "colors": {
+        "color0": "#283031",
+        "color1": "#91ADAA",
+        "color2": "#DFA49C",
+        "color3": "#C0C3BC",
+        "color4": "#B6D9D3",
+        "color5": "#BEE1DB",
+        "color6": "#CFD2C9",
+        "color7": "#e1e9e2",
+        "color8": "#9da39e",
+        "color9": "#91ADAA",
+        "color10": "#DFA49C",
+        "color11": "#C0C3BC",
+        "color12": "#B6D9D3",
+        "color13": "#BEE1DB",
+        "color14": "#CFD2C9",
+        "color15": "#e1e9e2"
+    }
+}

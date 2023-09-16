@@ -1,0 +1,12 @@
+@define-color accent_color {color0};
+@define-color accent_bg_color {color0};
+@define-color window_bg_color {color0};
+@define-color window_fg_color {color15};
+@define-color headerbar_bg_color {color1};
+@define-color headerbar_fg_color {color15};
+@define-color popover_bg_color {color0};
+@define-color popover_fg_color {color15};
+@define-color view_bg_color {color0};
+@define-color view_fg_color {color15};
+@define-color card_bg_color {color1};
+@define-color card_fg_color {color15};

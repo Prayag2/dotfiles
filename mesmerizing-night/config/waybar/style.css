@@ -1,0 +1,83 @@
+@import url("/home/prayag/.cache/wal/gtk.css");
+
+* {
+    border: none;
+    border-radius: 0;
+    /* font-family: "DejaVu Sans Mono"; */
+    font-family: "JetBrains Mono", "Font Awesome 6 Free,Font Awesome 6 Free Solid";
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: alpha(@theme_base_color, 0.6);
+    color: @theme_text_color;
+}
+
+#workspaces {
+    outline: none;
+    background: alpha(@theme_text_color, 0.1);
+    margin: 6px 6px 6px 0;
+    border-radius: 4px;
+}
+
+#workspaces button {
+    outline: none;
+    padding: 0 3px;
+    color: @theme_text_color;
+    border-bottom: none;
+}
+#workspaces button:last-child {
+    border-radius: 0 4px 4px 0;
+}
+#workspaces button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+#workspaces button:only-child {
+    border-radius: 4px;
+}
+#workspaces button.active {
+    background: alpha(@theme_text_color, 0.2);
+}
+
+tooltip {
+    background: alpha(@theme_base_color, 0.9);
+}
+tooltip label {
+    color: @theme_text_color
+}
+
+#idle_inhibitor,
+#clock,
+#cpu,
+#memory,
+#pulseaudio,
+#tray,
+#temperature,
+#keyboard-state,
+#custom-microphone,
+#custom-ping,
+#custom-power,
+#gamemode,
+#custom-pkgs,
+#mpris {
+    margin: 6px 6px 6px 0;
+    background: alpha(@theme_text_color, 0.2);
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+#custom-power {
+    margin: 6px;
+}
+
+#tray menu *{
+    font-size: 14px;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}

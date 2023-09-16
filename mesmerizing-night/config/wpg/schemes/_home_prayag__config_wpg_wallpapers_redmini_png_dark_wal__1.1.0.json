@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/redmini.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0B0B0B",
+        "foreground": "#efd0d0",
+        "cursor": "#efd0d0"
+    },
+    "colors": {
+        "color0": "#0B0B0B",
+        "color1": "#C54F4D",
+        "color2": "#DE4745",
+        "color3": "#E14F4C",
+        "color4": "#E4706E",
+        "color5": "#E7817F",
+        "color6": "#E19695",
+        "color7": "#efd0d0",
+        "color8": "#a79191",
+        "color9": "#C54F4D",
+        "color10": "#DE4745",
+        "color11": "#E14F4C",
+        "color12": "#E4706E",
+        "color13": "#E7817F",
+        "color14": "#E19695",
+        "color15": "#efd0d0"
+    }
+}

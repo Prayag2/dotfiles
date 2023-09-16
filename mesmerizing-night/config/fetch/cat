@@ -1,0 +1,11 @@
+#!/bin/sh
+
+conf() {
+  printf "
+  (\ /)    $(c 0 31)  kr$(c 0 37) $(Kernel)
+  ( · ·)   $(c 0 34)  os$(c 0 37) $(Os)
+  c($(c 0 31)\"$(c 0 37))($(c 0 31)\"$(c 0 37))  $(c 0 32)  sh$(c 0 37) $(Shell)
+           $(c 0 33)  up$(c 0 37) $(Uptime)
+           $(c 0 35)  wm$(c 0 37) $(Desktop)
+  \n"
+}

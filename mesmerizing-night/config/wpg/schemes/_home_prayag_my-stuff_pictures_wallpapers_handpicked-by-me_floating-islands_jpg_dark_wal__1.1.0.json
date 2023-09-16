@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/floating-islands.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0d16",
+        "foreground": "#c2c1df",
+        "cursor": "#c2c1df"
+    },
+    "colors": {
+        "color0": "#0c0d16",
+        "color1": "#6671BC",
+        "color2": "#9274A6",
+        "color3": "#A07DBF",
+        "color4": "#7A84CB",
+        "color5": "#AC88AF",
+        "color6": "#D29AB4",
+        "color7": "#c2c1df",
+        "color8": "#87879c",
+        "color9": "#6671BC",
+        "color10": "#9274A6",
+        "color11": "#A07DBF",
+        "color12": "#7A84CB",
+        "color13": "#AC88AF",
+        "color14": "#D29AB4",
+        "color15": "#c2c1df"
+    }
+}

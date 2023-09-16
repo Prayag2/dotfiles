@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/minty-planet-glow.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#020C1B",
+        "foreground": "#8ee4e0",
+        "cursor": "#8ee4e0"
+    },
+    "colors": {
+        "color0": "#020C1B",
+        "color1": "#10605F",
+        "color2": "#136B69",
+        "color3": "#277674",
+        "color4": "#308A7D",
+        "color5": "#229A96",
+        "color6": "#42B5B1",
+        "color7": "#8ee4e0",
+        "color8": "#639f9c",
+        "color9": "#10605F",
+        "color10": "#136B69",
+        "color11": "#277674",
+        "color12": "#308A7D",
+        "color13": "#229A96",
+        "color14": "#42B5B1",
+        "color15": "#8ee4e0"
+    }
+}

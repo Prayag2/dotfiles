@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/neongreen.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#05151A",
+        "foreground": "#81e2d0",
+        "cursor": "#81e2d0"
+    },
+    "colors": {
+        "color0": "#05151A",
+        "color1": "#1C6769",
+        "color2": "#1C6E6F",
+        "color3": "#148878",
+        "color4": "#217F80",
+        "color5": "#228E8B",
+        "color6": "#1FA295",
+        "color7": "#81e2d0",
+        "color8": "#5a9e91",
+        "color9": "#1C6769",
+        "color10": "#1C6E6F",
+        "color11": "#148878",
+        "color12": "#217F80",
+        "color13": "#228E8B",
+        "color14": "#1FA295",
+        "color15": "#81e2d0"
+    }
+}

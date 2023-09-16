@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/wavesgreen.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#15402e",
+        "foreground": "#c7e2d6",
+        "cursor": "#c7e2d6"
+    },
+    "colors": {
+        "color0": "#15402e",
+        "color1": "#61AD8C",
+        "color2": "#77BC9C",
+        "color3": "#78BD9D",
+        "color4": "#7BBFA0",
+        "color5": "#7DC2A3",
+        "color6": "#86C9AA",
+        "color7": "#c7e2d6",
+        "color8": "#8b9e95",
+        "color9": "#61AD8C",
+        "color10": "#77BC9C",
+        "color11": "#78BD9D",
+        "color12": "#7BBFA0",
+        "color13": "#7DC2A3",
+        "color14": "#86C9AA",
+        "color15": "#c7e2d6"
+    }
+}

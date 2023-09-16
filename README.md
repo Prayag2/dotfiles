@@ -24,6 +24,10 @@
 <summary>Moonlight and the Roaring Falls</summary>
 <img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss-moonlight.png" style="width: 100%">
 </details>
+<details>
+<summary>Mesmerizing Night</summary>
+<img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss-mesmerising-night.png" style="width: 100%">
+</details>
 </center>
 
 ## Details

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/redcity.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0A1A",
+        "foreground": "#d8b8b7",
+        "cursor": "#d8b8b7"
+    },
+    "colors": {
+        "color0": "#0B0A1A",
+        "color1": "#504756",
+        "color2": "#6E4B59",
+        "color3": "#685A66",
+        "color4": "#B63B3F",
+        "color5": "#9C5660",
+        "color6": "#DB6562",
+        "color7": "#d8b8b7",
+        "color8": "#978080",
+        "color9": "#504756",
+        "color10": "#6E4B59",
+        "color11": "#685A66",
+        "color12": "#B63B3F",
+        "color13": "#9C5660",
+        "color14": "#DB6562",
+        "color15": "#d8b8b7"
+    }
+}

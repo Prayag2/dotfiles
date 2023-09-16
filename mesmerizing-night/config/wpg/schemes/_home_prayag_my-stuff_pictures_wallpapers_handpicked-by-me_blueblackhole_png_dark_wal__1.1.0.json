@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/blueblackhole.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0813",
+        "foreground": "#a0c7db",
+        "cursor": "#a0c7db"
+    },
+    "colors": {
+        "color0": "#0B0813",
+        "color1": "#5A4F69",
+        "color2": "#AC5D56",
+        "color3": "#EA9C68",
+        "color4": "#F3BD69",
+        "color5": "#3B6C93",
+        "color6": "#967589",
+        "color7": "#a0c7db",
+        "color8": "#708b99",
+        "color9": "#5A4F69",
+        "color10": "#AC5D56",
+        "color11": "#EA9C68",
+        "color12": "#F3BD69",
+        "color13": "#3B6C93",
+        "color14": "#967589",
+        "color15": "#a0c7db"
+    }
+}

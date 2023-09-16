@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/forestlakehouse.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d160a",
+        "foreground": "#a2dee3",
+        "cursor": "#a2dee3"
+    },
+    "colors": {
+        "color0": "#0d160a",
+        "color1": "#29886B",
+        "color2": "#71B04E",
+        "color3": "#5D9E6B",
+        "color4": "#99B16C",
+        "color5": "#21979A",
+        "color6": "#4DBAB3",
+        "color7": "#a2dee3",
+        "color8": "#719b9e",
+        "color9": "#29886B",
+        "color10": "#71B04E",
+        "color11": "#5D9E6B",
+        "color12": "#99B16C",
+        "color13": "#21979A",
+        "color14": "#4DBAB3",
+        "color15": "#a2dee3"
+    }
+}

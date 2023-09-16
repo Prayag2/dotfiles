@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/waterfallnight.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#09080f",
+        "foreground": "#a2d0e3",
+        "cursor": "#a2d0e3"
+    },
+    "colors": {
+        "color0": "#09080f",
+        "color1": "#2D486F",
+        "color2": "#4F5272",
+        "color3": "#2A6196",
+        "color4": "#4F6493",
+        "color5": "#907594",
+        "color6": "#52A8D7",
+        "color7": "#a2d0e3",
+        "color8": "#71919e",
+        "color9": "#2D486F",
+        "color10": "#4F5272",
+        "color11": "#2A6196",
+        "color12": "#4F6493",
+        "color13": "#907594",
+        "color14": "#52A8D7",
+        "color15": "#a2d0e3"
+    }
+}

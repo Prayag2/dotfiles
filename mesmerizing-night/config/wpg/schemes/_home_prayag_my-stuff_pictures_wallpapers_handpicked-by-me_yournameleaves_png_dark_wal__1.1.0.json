@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/yournameleaves.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101916",
+        "foreground": "#d3e2c3",
+        "cursor": "#d3e2c3"
+    },
+    "colors": {
+        "color0": "#101916",
+        "color1": "#4D7350",
+        "color2": "#629F58",
+        "color3": "#62AE4A",
+        "color4": "#8AB166",
+        "color5": "#93D56C",
+        "color6": "#79B885",
+        "color7": "#d3e2c3",
+        "color8": "#939e88",
+        "color9": "#4D7350",
+        "color10": "#629F58",
+        "color11": "#62AE4A",
+        "color12": "#8AB166",
+        "color13": "#93D56C",
+        "color14": "#79B885",
+        "color15": "#d3e2c3"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/minimalleaves.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0d0f",
+        "foreground": "#bdc1ba",
+        "cursor": "#bdc1ba"
+    },
+    "colors": {
+        "color0": "#0a0d0f",
+        "color1": "#57655A",
+        "color2": "#5B6A63",
+        "color3": "#6A766B",
+        "color4": "#798476",
+        "color5": "#848C7B",
+        "color6": "#7C8781",
+        "color7": "#bdc1ba",
+        "color8": "#848782",
+        "color9": "#57655A",
+        "color10": "#5B6A63",
+        "color11": "#6A766B",
+        "color12": "#798476",
+        "color13": "#848C7B",
+        "color14": "#7C8781",
+        "color15": "#bdc1ba"
+    }
+}

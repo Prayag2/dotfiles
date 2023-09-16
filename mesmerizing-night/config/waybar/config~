@@ -1,0 +1,130 @@
+{
+    // Settings
+    "layer": "top",
+    "position": "top",
+    "height": 36,
+    "spacing": 4,
+
+    // Module Order
+    "modules-left": ["custom/power", "wlr/workspaces", "mpris"],
+    "modules-right": ["gamemode", "idle_inhibitor", "custom/pkgs", "custom/ping", "pulseaudio", "pulseaudio#mic","cpu", "memory", "temperature","clock", "tray"],
+
+    // Left Modules
+    "custom/power": {
+        "format": "",
+        "on-click": "$HOME/.local/bin/power.sh"
+    },
+
+    "wlr/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "sort-by-number": true
+    },
+
+    "mpris": {
+        "format": "{status_icon} {title}",
+        "format-paused": "{status_icon} {title}",
+        "status-icons": {
+            "playing": "",
+            "paused": ""
+        },
+        "max-length": 30
+    },
+
+    // Right Modules
+    "gamemode": {
+        "format": "{glyph} {count}",
+        "glyph": "",
+        "hide-not-running": true,
+        "use-icon": true,
+        "icon-name": "input-gaming-symbolic",
+        "icon-spacing": 4,
+        "icon-size": 20,
+        "tooltip": true,
+        "tooltip-format": "Games running: {count}"
+    },
+
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+
+    "custom/pkgs": {
+        "exec": "[[ -e /tmp/execpkgs ]] && $HOME/.local/bin/pkg.sh || echo '-/-'",
+        "format": " {}",
+        "on-click": "touch /tmp/execpkgs",
+        "on-click-right": "alacritty -e yay -Syu",
+        "interval": "once",
+    },
+
+    "custom/ping": {
+        "exec": "printf '%03d' $(ping -c 1 1.1.1.1 -w 1 2>/dev/null | tail -1 | awk '{print $4}' | cut -d '/' -f 2 | cut -d '.' -f 1)",
+        "interval": 2,
+        "format": " {}ms"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " {volume}%",
+        "format-bluetooth": "{icon} {volume}%",
+        "max-volume": 150,
+        "format-bluetooth-muted": " {icon}",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pamixer -t",
+        "on-click-right": "pavucontrol"
+    },
+
+    "pulseaudio#mic": {
+        "format": "{format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": " {volume}%",
+        "on-click": "pamixer --default-source -t",
+        "on-click-middle": "pactl load-module module-loopback",
+        "on-click-right": "pactl unload-module module-loopback",
+        "on-scroll-up": "pamixer --default-source -i 5",
+        "on-scroll-down": "pamixer --default-source -d 5"
+    },
+
+    "cpu": {
+        "format": " {usage:02}%",
+        "interval": 2
+    },
+
+    "memory": {
+        "format": " {used:02} GB",
+        "interval": 2,
+        "tooltip-format": "{percentage}% Used\nTotal: {total} GB"
+    },
+
+    "temperature": {
+        "thermal-zone": 2,
+        "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        "format-critical": " {temperatureC}°C",
+        "format": " {temperatureC}°C",
+    },
+
+    "clock": {
+        "timezone": "Asia/Kolkata",
+        "tooltip-format": "<tt>{calendar}</tt>",
+        "format": " {:%I:%M %p}",
+        "format-alt": "{:%d %h %Y ∙ %A}"
+    },
+
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+
+}

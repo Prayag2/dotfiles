@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/yournameshrine.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B1612",
+        "foreground": "#dfc8c7",
+        "cursor": "#dfc8c7"
+    },
+    "colors": {
+        "color0": "#0B1612",
+        "color1": "#36424B",
+        "color2": "#585B56",
+        "color3": "#956A5D",
+        "color4": "#958776",
+        "color5": "#5E6E95",
+        "color6": "#A59299",
+        "color7": "#dfc8c7",
+        "color8": "#9c8c8b",
+        "color9": "#36424B",
+        "color10": "#585B56",
+        "color11": "#956A5D",
+        "color12": "#958776",
+        "color13": "#5E6E95",
+        "color14": "#A59299",
+        "color15": "#dfc8c7"
+    }
+}

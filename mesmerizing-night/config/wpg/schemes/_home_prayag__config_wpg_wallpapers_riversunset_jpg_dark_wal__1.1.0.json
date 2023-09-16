@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/riversunset.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#081826",
+        "foreground": "#f1c0c0",
+        "cursor": "#f1c0c0"
+    },
+    "colors": {
+        "color0": "#081826",
+        "color1": "#5A7691",
+        "color2": "#B5788E",
+        "color3": "#279FB5",
+        "color4": "#648FA6",
+        "color5": "#A18FA0",
+        "color6": "#E29F94",
+        "color7": "#f1c0c0",
+        "color8": "#a88686",
+        "color9": "#5A7691",
+        "color10": "#B5788E",
+        "color11": "#279FB5",
+        "color12": "#648FA6",
+        "color13": "#A18FA0",
+        "color14": "#E29F94",
+        "color15": "#f1c0c0"
+    }
+}

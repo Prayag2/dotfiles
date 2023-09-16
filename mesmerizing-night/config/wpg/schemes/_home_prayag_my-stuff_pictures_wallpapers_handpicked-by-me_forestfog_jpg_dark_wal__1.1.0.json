@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/forestfog.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1918",
+        "foreground": "#c3c4be",
+        "cursor": "#c3c4be"
+    },
+    "colors": {
+        "color0": "#0E1918",
+        "color1": "#495136",
+        "color2": "#4E534B",
+        "color3": "#606559",
+        "color4": "#71746A",
+        "color5": "#7E8173",
+        "color6": "#84877A",
+        "color7": "#c3c4be",
+        "color8": "#888985",
+        "color9": "#495136",
+        "color10": "#4E534B",
+        "color11": "#606559",
+        "color12": "#71746A",
+        "color13": "#7E8173",
+        "color14": "#84877A",
+        "color15": "#c3c4be"
+    }
+}

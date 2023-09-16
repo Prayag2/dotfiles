@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/onedark.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#11161b",
+        "foreground": "#d3b8dc",
+        "cursor": "#d3b8dc"
+    },
+    "colors": {
+        "color0": "#11161b",
+        "color1": "#64BECA",
+        "color2": "#67B4D6",
+        "color3": "#71BDF2",
+        "color4": "#D89388",
+        "color5": "#E78287",
+        "color6": "#A7CB8B",
+        "color7": "#d3b8dc",
+        "color8": "#93809a",
+        "color9": "#64BECA",
+        "color10": "#67B4D6",
+        "color11": "#71BDF2",
+        "color12": "#D89388",
+        "color13": "#E78287",
+        "color14": "#A7CB8B",
+        "color15": "#d3b8dc"
+    }
+}

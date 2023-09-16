@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/yourname.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0D1118",
+        "foreground": "#9fd7e5",
+        "cursor": "#9fd7e5"
+    },
+    "colors": {
+        "color0": "#0D1118",
+        "color1": "#335790",
+        "color2": "#4F6F9C",
+        "color3": "#4C5FBF",
+        "color4": "#9066CC",
+        "color5": "#628DB2",
+        "color6": "#6FA5CA",
+        "color7": "#9fd7e5",
+        "color8": "#6f96a0",
+        "color9": "#335790",
+        "color10": "#4F6F9C",
+        "color11": "#4C5FBF",
+        "color12": "#9066CC",
+        "color13": "#628DB2",
+        "color14": "#6FA5CA",
+        "color15": "#9fd7e5"
+    }
+}

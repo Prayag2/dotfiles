@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/mountainslice.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0d1c",
+        "foreground": "#a9cbda",
+        "cursor": "#a9cbda"
+    },
+    "colors": {
+        "color0": "#0a0d1c",
+        "color1": "#B18976",
+        "color2": "#2D6FA0",
+        "color3": "#4C72A0",
+        "color4": "#C95594",
+        "color5": "#4191B8",
+        "color6": "#5A93B7",
+        "color7": "#a9cbda",
+        "color8": "#768e98",
+        "color9": "#B18976",
+        "color10": "#2D6FA0",
+        "color11": "#4C72A0",
+        "color12": "#C95594",
+        "color13": "#4191B8",
+        "color14": "#5A93B7",
+        "color15": "#a9cbda"
+    }
+}

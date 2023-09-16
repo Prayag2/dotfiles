@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/asdf_waifu2x_noise3_scale4x.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0F162E",
+        "foreground": "#c8e4e2",
+        "cursor": "#c8e4e2"
+    },
+    "colors": {
+        "color0": "#0F162E",
+        "color1": "#8A857B",
+        "color2": "#37698D",
+        "color3": "#547290",
+        "color4": "#6596A7",
+        "color5": "#68BDC6",
+        "color6": "#9BA2AF",
+        "color7": "#c8e4e2",
+        "color8": "#8c9f9e",
+        "color9": "#8A857B",
+        "color10": "#37698D",
+        "color11": "#547290",
+        "color12": "#6596A7",
+        "color13": "#68BDC6",
+        "color14": "#9BA2AF",
+        "color15": "#c8e4e2"
+    }
+}

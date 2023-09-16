@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/nord.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1b1e25",
+        "foreground": "#bcd8e0",
+        "cursor": "#bcd8e0"
+    },
+    "colors": {
+        "color0": "#1b1e25",
+        "color1": "#556C8B",
+        "color2": "#5C7BA1",
+        "color3": "#6B93AE",
+        "color4": "#7CACC4",
+        "color5": "#82A9BC",
+        "color6": "#86BACD",
+        "color7": "#bcd8e0",
+        "color8": "#83979c",
+        "color9": "#556C8B",
+        "color10": "#5C7BA1",
+        "color11": "#6B93AE",
+        "color12": "#7CACC4",
+        "color13": "#82A9BC",
+        "color14": "#86BACD",
+        "color15": "#bcd8e0"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/minimal-forest-gray.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#19242c",
+        "foreground": "#e0e5ea",
+        "cursor": "#e0e5ea"
+    },
+    "colors": {
+        "color0": "#19242c",
+        "color1": "#A3ADB9",
+        "color2": "#9CADC2",
+        "color3": "#ABBCD1",
+        "color4": "#B5C4D7",
+        "color5": "#BACBE2",
+        "color6": "#CDD8E5",
+        "color7": "#e0e5ea",
+        "color8": "#9ca0a3",
+        "color9": "#A3ADB9",
+        "color10": "#9CADC2",
+        "color11": "#ABBCD1",
+        "color12": "#B5C4D7",
+        "color13": "#BACBE2",
+        "color14": "#CDD8E5",
+        "color15": "#e0e5ea"
+    }
+}

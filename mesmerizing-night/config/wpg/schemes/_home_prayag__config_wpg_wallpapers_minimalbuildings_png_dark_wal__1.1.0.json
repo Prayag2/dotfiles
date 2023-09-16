@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/minimalbuildings.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121315",
+        "foreground": "#e5e6e7",
+        "cursor": "#e5e6e7"
+    },
+    "colors": {
+        "color0": "#121315",
+        "color1": "#797D81",
+        "color2": "#7D8287",
+        "color3": "#8B8F93",
+        "color4": "#A5A9AD",
+        "color5": "#BCBFC3",
+        "color6": "#DADBDD",
+        "color7": "#e5e6e7",
+        "color8": "#a0a1a1",
+        "color9": "#797D81",
+        "color10": "#7D8287",
+        "color11": "#8B8F93",
+        "color12": "#A5A9AD",
+        "color13": "#BCBFC3",
+        "color14": "#DADBDD",
+        "color15": "#e5e6e7"
+    }
+}

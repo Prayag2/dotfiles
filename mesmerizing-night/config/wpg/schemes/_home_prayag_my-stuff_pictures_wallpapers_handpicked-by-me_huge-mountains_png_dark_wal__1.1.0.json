@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/huge-mountains.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0b07",
+        "foreground": "#dad8d3",
+        "cursor": "#dad8d3"
+    },
+    "colors": {
+        "color0": "#0b0b07",
+        "color1": "#666156",
+        "color2": "#6C6B69",
+        "color3": "#877E74",
+        "color4": "#7D8285",
+        "color5": "#8E918E",
+        "color6": "#ADADA5",
+        "color7": "#dad8d3",
+        "color8": "#989793",
+        "color9": "#666156",
+        "color10": "#6C6B69",
+        "color11": "#877E74",
+        "color12": "#7D8285",
+        "color13": "#8E918E",
+        "color14": "#ADADA5",
+        "color15": "#dad8d3"
+    }
+}

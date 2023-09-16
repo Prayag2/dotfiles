@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/anime-greenry.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#111c3d",
+        "foreground": "#e3ebe4",
+        "cursor": "#e3ebe4"
+    },
+    "colors": {
+        "color0": "#111c3d",
+        "color1": "#64A6D7",
+        "color2": "#94AEA0",
+        "color3": "#B1CAA9",
+        "color4": "#D1DDAF",
+        "color5": "#99B9D1",
+        "color6": "#A7D1E2",
+        "color7": "#e3ebe4",
+        "color8": "#9ea49f",
+        "color9": "#64A6D7",
+        "color10": "#94AEA0",
+        "color11": "#B1CAA9",
+        "color12": "#D1DDAF",
+        "color13": "#99B9D1",
+        "color14": "#A7D1E2",
+        "color15": "#e3ebe4"
+    }
+}
