@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/yournameeveningcity.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C161B",
+        "foreground": "#dec1b1",
+        "cursor": "#dec1b1"
+    },
+    "colors": {
+        "color0": "#0C161B",
+        "color1": "#4B3B4E",
+        "color2": "#374354",
+        "color3": "#4C4652",
+        "color4": "#6F4E55",
+        "color5": "#6C5563",
+        "color6": "#946465",
+        "color7": "#dec1b1",
+        "color8": "#9b877b",
+        "color9": "#4B3B4E",
+        "color10": "#374354",
+        "color11": "#4C4652",
+        "color12": "#6F4E55",
+        "color13": "#6C5563",
+        "color14": "#946465",
+        "color15": "#dec1b1"
+    }
+}

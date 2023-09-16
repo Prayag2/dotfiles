@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/glowy-night.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0D0D16",
+        "foreground": "#d2b7b8",
+        "cursor": "#d2b7b8"
+    },
+    "colors": {
+        "color0": "#0D0D16",
+        "color1": "#1D4871",
+        "color2": "#AD5643",
+        "color3": "#235E9A",
+        "color4": "#4C6BAC",
+        "color5": "#27A0DA",
+        "color6": "#46B6D8",
+        "color7": "#d2b7b8",
+        "color8": "#938080",
+        "color9": "#1D4871",
+        "color10": "#AD5643",
+        "color11": "#235E9A",
+        "color12": "#4C6BAC",
+        "color13": "#27A0DA",
+        "color14": "#46B6D8",
+        "color15": "#d2b7b8"
+    }
+}

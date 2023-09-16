@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/green-valley-with-clouds.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#10100f",
+        "foreground": "#d6d6d6",
+        "cursor": "#d6d6d6"
+    },
+    "colors": {
+        "color0": "#10100f",
+        "color1": "#61655C",
+        "color2": "#7D7C65",
+        "color3": "#989162",
+        "color4": "#7B8688",
+        "color5": "#8C9392",
+        "color6": "#A8ABAB",
+        "color7": "#d6d6d6",
+        "color8": "#959595",
+        "color9": "#61655C",
+        "color10": "#7D7C65",
+        "color11": "#989162",
+        "color12": "#7B8688",
+        "color13": "#8C9392",
+        "color14": "#A8ABAB",
+        "color15": "#d6d6d6"
+    }
+}

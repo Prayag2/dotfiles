@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/seaandsky.png",
+    "alpha": "100",
+    "special": {
+        "background": "#020B16",
+        "foreground": "#c3cbc6",
+        "cursor": "#c3cbc6"
+    },
+    "colors": {
+        "color0": "#020B16",
+        "color1": "#586767",
+        "color2": "#697971",
+        "color3": "#A09073",
+        "color4": "#6B9696",
+        "color5": "#3BC2B5",
+        "color6": "#60D9C9",
+        "color7": "#c3cbc6",
+        "color8": "#888e8a",
+        "color9": "#586767",
+        "color10": "#697971",
+        "color11": "#A09073",
+        "color12": "#6B9696",
+        "color13": "#3BC2B5",
+        "color14": "#60D9C9",
+        "color15": "#c3cbc6"
+    }
+}

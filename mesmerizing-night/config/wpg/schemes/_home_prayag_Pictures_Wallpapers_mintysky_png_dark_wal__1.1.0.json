@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/mintysky.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F1319",
+        "foreground": "#a9dbe2",
+        "cursor": "#a9dbe2"
+    },
+    "colors": {
+        "color0": "#0F1319",
+        "color1": "#2A5568",
+        "color2": "#2A586A",
+        "color3": "#506D75",
+        "color4": "#877E7D",
+        "color5": "#427588",
+        "color6": "#5A909E",
+        "color7": "#a9dbe2",
+        "color8": "#76999e",
+        "color9": "#2A5568",
+        "color10": "#2A586A",
+        "color11": "#506D75",
+        "color12": "#877E7D",
+        "color13": "#427588",
+        "color14": "#5A909E",
+        "color15": "#a9dbe2"
+    }
+}

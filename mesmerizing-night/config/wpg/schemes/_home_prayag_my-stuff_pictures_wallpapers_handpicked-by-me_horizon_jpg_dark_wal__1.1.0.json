@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/horizon.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d15",
+        "foreground": "#c7bec3",
+        "cursor": "#c7bec3"
+    },
+    "colors": {
+        "color0": "#0d0d15",
+        "color1": "#F9D967",
+        "color2": "#3F5A81",
+        "color3": "#51658B",
+        "color4": "#687494",
+        "color5": "#9C7787",
+        "color6": "#78849D",
+        "color7": "#c7bec3",
+        "color8": "#8b8588",
+        "color9": "#F9D967",
+        "color10": "#3F5A81",
+        "color11": "#51658B",
+        "color12": "#687494",
+        "color13": "#9C7787",
+        "color14": "#78849D",
+        "color15": "#c7bec3"
+    }
+}

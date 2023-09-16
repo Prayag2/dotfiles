@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/WallHaven/wallhaven-yxxoxk_1600x900.png",
+    "alpha": "100",
+    "special": {
+        "background": "#090911",
+        "foreground": "#ecc9bb",
+        "cursor": "#ecc9bb"
+    },
+    "colors": {
+        "color0": "#090911",
+        "color1": "#A16B41",
+        "color2": "#768265",
+        "color3": "#A49068",
+        "color4": "#DAA06C",
+        "color5": "#E3C966",
+        "color6": "#B99A82",
+        "color7": "#ecc9bb",
+        "color8": "#a58c82",
+        "color9": "#A16B41",
+        "color10": "#768265",
+        "color11": "#A49068",
+        "color12": "#DAA06C",
+        "color13": "#E3C966",
+        "color14": "#B99A82",
+        "color15": "#ecc9bb"
+    }
+}

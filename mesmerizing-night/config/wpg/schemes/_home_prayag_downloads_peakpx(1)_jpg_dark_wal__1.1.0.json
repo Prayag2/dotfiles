@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/downloads/peakpx(1).jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101c23",
+        "foreground": "#a6d5de",
+        "cursor": "#a6d5de"
+    },
+    "colors": {
+        "color0": "#101c23",
+        "color1": "#295F9E",
+        "color2": "#4B7490",
+        "color3": "#2774C3",
+        "color4": "#6094A2",
+        "color5": "#3395CD",
+        "color6": "#55B0CD",
+        "color7": "#a6d5de",
+        "color8": "#74959b",
+        "color9": "#295F9E",
+        "color10": "#4B7490",
+        "color11": "#2774C3",
+        "color12": "#6094A2",
+        "color13": "#3395CD",
+        "color14": "#55B0CD",
+        "color15": "#a6d5de"
+    }
+}

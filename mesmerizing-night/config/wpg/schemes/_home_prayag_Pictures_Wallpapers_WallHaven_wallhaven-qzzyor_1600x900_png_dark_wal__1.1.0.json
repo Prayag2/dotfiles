@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/WallHaven/wallhaven-qzzyor_1600x900.png",
+    "alpha": "100",
+    "special": {
+        "background": "#07181E",
+        "foreground": "#cbdfe0",
+        "cursor": "#cbdfe0"
+    },
+    "colors": {
+        "color0": "#07181E",
+        "color1": "#114854",
+        "color2": "#1E5D6A",
+        "color3": "#9A6342",
+        "color4": "#2A7986",
+        "color5": "#2A949D",
+        "color6": "#5E9DA6",
+        "color7": "#cbdfe0",
+        "color8": "#8e9c9c",
+        "color9": "#114854",
+        "color10": "#1E5D6A",
+        "color11": "#9A6342",
+        "color12": "#2A7986",
+        "color13": "#2A949D",
+        "color14": "#5E9DA6",
+        "color15": "#cbdfe0"
+    }
+}

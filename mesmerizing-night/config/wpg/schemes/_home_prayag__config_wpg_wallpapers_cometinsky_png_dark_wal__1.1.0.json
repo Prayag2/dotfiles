@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/cometinsky.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0f18",
+        "foreground": "#a9c2c9",
+        "cursor": "#a9c2c9"
+    },
+    "colors": {
+        "color0": "#0c0f18",
+        "color1": "#344A61",
+        "color2": "#59535B",
+        "color3": "#8F716A",
+        "color4": "#B28B79",
+        "color5": "#4B7288",
+        "color6": "#897D81",
+        "color7": "#a9c2c9",
+        "color8": "#76878c",
+        "color9": "#344A61",
+        "color10": "#59535B",
+        "color11": "#8F716A",
+        "color12": "#B28B79",
+        "color13": "#4B7288",
+        "color14": "#897D81",
+        "color15": "#a9c2c9"
+    }
+}

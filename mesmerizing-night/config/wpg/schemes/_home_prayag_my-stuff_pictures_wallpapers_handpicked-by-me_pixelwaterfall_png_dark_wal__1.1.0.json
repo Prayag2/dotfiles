@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/pixelwaterfall.png",
+    "alpha": "100",
+    "special": {
+        "background": "#011117",
+        "foreground": "#d4dbd7",
+        "cursor": "#d4dbd7"
+    },
+    "colors": {
+        "color0": "#011117",
+        "color1": "#6C8978",
+        "color2": "#868B77",
+        "color3": "#5C7482",
+        "color4": "#71898C",
+        "color5": "#7C98A3",
+        "color6": "#91A59D",
+        "color7": "#d4dbd7",
+        "color8": "#949996",
+        "color9": "#6C8978",
+        "color10": "#868B77",
+        "color11": "#5C7482",
+        "color12": "#71898C",
+        "color13": "#7C98A3",
+        "color14": "#91A59D",
+        "color15": "#d4dbd7"
+    }
+}

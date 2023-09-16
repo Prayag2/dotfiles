@@ -1,0 +1,756 @@
+#+TITLE: Emacs Config
+#+PROPERTY: header-args :tangle ~/.emacs.d/init.el
+
+* Disabling Useless Stuff
+#+begin_src emacs-lisp
+(setq inhibit-startup-message t)
+(scroll-bar-mode -1) (tool-bar-mode -1) (tooltip-mode -1)
+(set-fringe-mode 10)
+(menu-bar-mode -1)
+(setq backup-directory-alist '((".*" . "~/.trash")))
+(setq warning-minimum-level :emergency)
+#+end_src
+
+#+RESULTS:
+: :emergency
+
+* Font Settings
+#+begin_src emacs-lisp
+(set-face-attribute 'default nil :font "JetBrains Mono" :height 132)
+#+end_src
+* Packages
+** Setting Up
+#+begin_src emacs-lisp
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+			 ("org" . "https://orgmode.org/elpa")
+			 ("elpa" . "https://elpa.gnu.org/packages/")))
+
+(package-initialize)
+(unless package-archive-contents
+  (package-refresh-contents))
+
+(unless (package-installed-p 'use-package)
+  (package-install 'use-package))
+
+(setq use-package-always-ensure t)
+#+end_src
+** Require
+#+begin_src emacs-lisp
+(require 'package)
+(require 'use-package)
+(require 'org-tempo)
+(require 'org-habit)
+#+end_src
+
+#+RESULTS:
+: org-habit
+
+** Third Party Packages
+*** Vertico
+Better than Ivy
+#+begin_src emacs-lisp
+(use-package vertico
+  :init
+  (vertico-mode)
+  :custom
+  (vertico-cycle t))
+#+end_src
+
+*** Mood Line
+Minimalistic modeline
+#+begin_src emacs-lisp
+(use-package mood-line
+    :config
+    (mood-line-mode))
+#+end_src
+
+*** Rainbow Delimiters
+Highlights matching parenthesis.
+#+begin_src emacs-lisp
+(use-package rainbow-delimiters
+  :hook (prog-mode . rainbow-delimiters-mode))
+#+end_src
+*** Which Key
+Shows keybinding hints.
+#+begin_src emacs-lisp
+(use-package which-key
+  :init (which-key-mode)
+  :diminish which-key-mode
+  :config
+  (setq which-key-idle-delay 0.3))
+#+end_src
+*** Evil
+Vim like keybindings.
+#+begin_src emacs-lisp
+  (use-package evil
+    :init
+    (setq evil-want-integration t)
+    (setq evil-want-keybinding nil)
+    (setq evil-shift-round nil)
+    (setq evil-shift-width 4)
+
+
+    :config
+    (evil-mode 1))
+#+end_src
+
+#+RESULTS:
+: t
+
+*** Evil Collection
+Adds upon evil.
+#+begin_src emacs-lisp
+(use-package evil-collection
+    :after evil
+    :config
+    (evil-collection-init))
+#+end_src
+
+#+RESULTS:
+: t
+
+*** EWal
+Use pywal theme.
+#+begin_src emacs-lisp
+  ;; (use-package ewal
+  ;;   :init (setq ewal-use-built-in-always-p nil
+  ;;               ewal-use-built-in-on-failure-p t
+  ;;               ewal-built-in-palette "base16-default"))
+
+  (use-package ewal-doom-themes
+    :config (progn
+	      (load-theme 'doom-badger t)
+	      (enable-theme 'doom-badger)))
+#+end_src
+
+#+RESULTS:
+: t
+
+*** General.el
+Makes using keybindings easier.
+#+begin_src emacs-lisp
+  (use-package general
+    :config
+    (general-create-definer prayag/leader-keys
+      :states '(normal insert motion visual emacs)
+      :keymaps 'override
+      :prefix "SPC"
+      :global-prefix "C-SPC"))
+#+end_src
+
+#+RESULTS:
+: t
+
+*** Org Bullets
+Beautiful bullets for headings in org-mode.
+#+begin_src emacs-lisp
+(use-package org-bullets :ensure t)
+#+end_src
+
+#+RESULTS:
+: org-bullets
+
+*** LSP Mode
+Provides vscode like code suggestions
+#+begin_src emacs-lisp
+(use-package lsp-mode
+  :hook (
+         (lsp-mode . lsp-enable-which-key-integration)
+         (lsp-completion-mode . my/lsp-mode-setup-completion))
+  :commands lsp
+  :config
+  (add-hook 'prog-mode-hook #'lsp)
+  (lsp)
+  :custom
+  (lsp-completion-provider :none) ;; we use Corfu!
+  :init
+  (defun my/lsp-mode-setup-completion ()
+    (setf (alist-get 'styles (alist-get 'lsp-capf completion-category-defaults))
+          '(orderless))))
+
+(use-package lsp-ui :commands lsp-ui-mode)
+(use-package lsp-tailwindcss)
+
+
+#+end_src
+
+#+RESULTS:
+
+Here's a list of all lsp servers I usually install
+1. ~jsts-ls~ For Javascript and Typescript support
+2. ~html-ls~ For HTML
+3. ~clangd~ for c++
+4. ~emmet-ls~ for emmet support
+5. ~bash-ls~ for bash support
+
+*** Company Mode
+#+begin_src emacs-lisp
+;; (use-package company)
+#+end_src
+
+#+RESULTS:
+*** FlyCheck
+#+begin_src emacs-lisp
+(use-package flycheck
+  :init (global-flycheck-mode))
+#+end_src
+*** Web Mode
+Major mode for web dev.
+#+begin_src emacs-lisp
+(use-package web-mode)
+#+end_src
+*** Projectile
+Used to manage projects
+#+begin_src emacs-lisp
+(use-package projectile
+  :diminish projectile-mode
+  :config
+  (projectile-mode)
+  :bind-keymap
+  ("C-c p" . projectile-command-map)
+  :init
+  (setq projectile-project-search-path
+        '(
+          ("~/my-stuff/projects" . 3)
+          ("~/my-stuff/projects" . 2)))
+  (setq projectile-switch-project-action #'projectile-dired))
+#+end_src
+*** Magit
+#+begin_src emacs-lisp
+(use-package magit
+  :custom
+  (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
+#+end_src
+
+#+RESULTS:
+: t
+*** Consult
+Better menus
+#+begin_src emacs-lisp
+(use-package consult
+  :hook (completion-list-mode . consult-preview-at-point-mode))
+#+end_src
+
+#+RESULTS:
+| consult-preview-at-point-mode |
+*** Orderless
+Improves searching
+#+begin_src emacs-lisp
+(use-package orderless
+  :ensure t
+  :custom
+  (completion-styles '(orderless basic))
+  (completion-category-overrides '((file (styles basic partial-completion))))
+  :init
+  (setq completion-styles '(orderless partial-completion basic)
+        completion-category-defaults nil
+        completion-category-overrides nil))
+#+end_src
+
+#+RESULTS:
+*** Marginalia
+Provides short descriptions.
+#+begin_src emacs-lisp
+(use-package marginalia
+  :bind (:map minibuffer-local-map
+         ("M-A" . marginalia-cycle))
+  :init
+  (marginalia-mode))
+#+end_src
+
+#+RESULTS:
+: marginalia-cycle
+*** Treemacs
+#+begin_src emacs-lisp
+(use-package treemacs
+  :ensure t
+  :defer t
+  :init
+  (with-eval-after-load 'winum
+    (define-key winum-keymap (kbd "M-0") #'treemacs-select-window))
+  :config
+    (treemacs-follow-mode t)
+    (treemacs-filewatch-mode t)
+    (treemacs-fringe-indicator-mode 'always)
+    (when treemacs-python-executable
+      (treemacs-git-commit-diff-mode t))
+
+    (pcase (cons (not (null (executable-find "git")))
+                 (not (null treemacs-python-executable)))
+      (`(t . t)
+       (treemacs-git-mode 'deferred))
+      (`(t . _)
+       (treemacs-git-mode 'simple)))
+
+    (treemacs-hide-gitignored-files-mode nil))
+
+(use-package treemacs-evil
+  :after (treemacs evil)
+  :ensure t)
+
+(use-package treemacs-projectile
+  :after (treemacs projectile)
+  :ensure t)
+
+(use-package treemacs-icons-dired
+  :hook (dired-mode . treemacs-icons-dired-enable-once)
+  :ensure t)
+
+(use-package lsp-treemacs
+  :config
+  (lsp-treemacs-sync-mode 1))
+
+(use-package treemacs-magit
+  :after (treemacs magit)
+  :ensure t)
+
+(use-package treemacs-all-the-icons
+  :after treemacs
+  :config
+  (treemacs-load-theme "all-the-icons"))
+
+(use-package treemacs-perspective
+  :after treemacs perspective
+  :config (treemacs-set-scope-type 'Perspectives))
+#+end_src
+
+#+RESULTS:
+: t
+*** VTerm
+#+begin_src emacs-lisp
+(use-package vterm)
+#+end_src
+
+#+RESULTS:
+*** Corfu
+For completions
+#+begin_src emacs-lisp
+(use-package corfu
+  :custom
+  ;; (corfu-cycle t)                ;; Enable cycling for `corfu-next/previous'
+  (corfu-auto t)                 ;; Enable auto completion
+  (setq-local corfu-auto-delay 0
+        corfu-auto-prefix 0
+        completion-styles '(basic))
+  ;; (corfu-separator ?\s)          ;; Orderless field separator
+  ;; (corfu-quit-at-boundary nil)   ;; Never quit at completion boundary
+  ;; (corfu-quit-no-match nil)      ;; Never quit, even if there is no match
+  ;; (corfu-preview-current nil)    ;; Disable current candidate preview
+  ;; (corfu-preselect 'prompt)      ;; Preselect the prompt
+  ;; (corfu-on-exact-match nil)     ;; Configure handling of exact matches
+  ;; (corfu-scroll-margin 5)        ;; Use scroll margin
+  :init
+  (global-corfu-mode))
+
+(use-package emacs
+  :init
+  (setq completion-cycle-threshold 3)
+  (setq tab-always-indent 'complete))
+#+end_src
+
+#+RESULTS:
+*** VTerm Toggle
+#+begin_src emacs-lisp
+(use-package vterm-toggle
+  :config
+  (add-to-list 'display-buffer-alist
+     '("\*vterm\*"
+       (display-buffer-in-side-window)
+       (window-height . 0.4)
+       (side . bottom)
+       (slot . 0))))
+#+end_src
+
+#+RESULTS:
+: t
+*** Yasnippets
+#+begin_src emacs-lisp
+;; (use-package yasnippet)
+;; (use-package yasnippet-snippets)
+#+end_src
+
+**** React, Javascript, Redux
+#+begin_src emacs-lisp
+;; (use-package js-react-redux-yasnippets)
+#+end_src
+
+#+RESULTS:
+*** Smartparens
+#+begin_src emacs-lisp
+(use-package smartparens
+  :config
+  (add-hook 'prog-mode-hook #'smartparens-mode)
+  (smartparens-mode))
+#+end_src
+
+#+RESULTS:
+: t
+*** Org Roam
+#+begin_src emacs-lisp
+(use-package org-roam
+  :custom
+  (org-roam-directory "~/my-stuff/notes/")
+  :config
+  (org-roam-db-autosync-enable))
+#+end_src
+*** Evil Org Keys
+Improved keybindings for org-mode
+#+begin_src emacs-lisp
+(use-package evil-org
+  :ensure t
+  :after org
+  :hook (org-mode . (lambda () evil-org-mode))
+  :config
+  (require 'evil-org-agenda)
+  (evil-org-agenda-set-keys))
+#+end_src
+*** Perspective
+Workspaces for emacs
+#+begin_src emacs-lisp
+(use-package perspective
+  :bind
+  ("C-x C-b" . persp-list-buffers)         ; or use a nicer switcher, see below
+  :custom
+  (persp-mode-prefix-key (kbd "C-c M-p"))  ; pick your own prefix key here
+  :init
+  (persp-mode))
+#+end_src
+*** Emmet Mode
+#+begin_src emacs-lisp
+(use-package emmet-mode
+  :config
+  (add-hook 'prog-mode-hook 'emmet-mode))
+#+end_src
+
+#+RESULTS:
+: t
+*** Prettier JS
+#+begin_src emacs-lisp
+(use-package prettier-js
+  :config
+  (add-hook 'web-mode-hook 'prettier-js-mode))
+#+end_src
+
+#+RESULTS:
+: t
+
+* Custom Functions
+A function which lets me create projects on the fly.
+#+begin_src emacs-lisp
+(defun create-project ()
+  "Create a new project directory, initialize Git, add to Projectile, create README.md, and open with Treemacs."
+  (interactive)
+  (let* ((project-name (read-string "Enter project name: "))
+         (project-types (directory-files "~/my-stuff/projects/in-progress/" t "^[^.]" t))
+         (project-type (completing-read "Choose project type: " project-types))
+         (project-dir (expand-file-name (concat project-type "/" project-name)))
+         (readme-file (expand-file-name "README.md" project-dir)))
+
+    ;; Create project directory
+    (make-directory project-dir t)
+
+    ;; Initialize Git
+    (let ((default-directory project-dir))
+      (shell-command "git init"))
+
+    ;; Add to Projectile
+    (projectile-add-known-project project-dir)
+
+    ;; Create README.md
+    (with-temp-buffer
+      (insert "# " project-name)
+      (write-file readme-file))
+
+    ;; Open project directory with Treemacs
+    (projectile-switch-project-by-name project-dir)
+    (treemacs-add-and-display-current-project-exclusively)
+    (find-file readme-file)))
+#+end_src
+
+#+RESULTS:
+: create-project
+
+#+begin_src emacs-lisp
+#+end_src
+
+#+RESULTS:
+
+* Keybindings
+** Global Bindings
+#+begin_src emacs-lisp
+(general-define-key
+"C-=" 'text-scale-increase
+"C--" 'text-scale-decrease)
+#+end_src
+** Leader Key Bindings
+*** Buffers
+#+begin_src emacs-lisp
+(prayag/leader-keys
+"b" '(:ignore t :which-key "buffers")
+"<" '(switch-to-buffer :which-key "switch buffer")
+"bk" '(kill-buffer-and-window :which-key "kill buffer"))
+#+end_src
+
+#+RESULTS:
+
+*** Windows
+#+begin_src emacs-lisp
+(prayag/leader-keys
+"w" '(:ignore t :which-key "windows")
+"wH" '(evil-window-split :which-key "horizontal split")
+"wV" '(evil-window-vsplit :which-key "vertical split")
+"wj" '(evil-window-down :which-key "move cursor to the window below")
+"wk" '(evil-window-up :which-key "move cursor to the window above")
+"wh" '(evil-window-left :which-key "move cursor to the left window")
+"wl" '(evil-window-right :which-key "move cursor to the right window")
+"wd" '(evil-window-delete :which-key "delete window"))
+#+end_src
+*** Files
+#+begin_src emacs-lisp
+(prayag/leader-keys
+"f" '(:ignore t :which-key "files")
+"." '(find-file :which-key "find file")
+"fr" '(recentf :which-key "show recent files"))
+#+end_src
+*** Projectile
+#+begin_src emacs-lisp
+;; (prayag/leader-keys
+;;     "p" '(:ignore t :which-key "projects")
+;;     "pp" '(projectile-switch-project :which-key "switch project")
+;;     "pa" '(projectile-add-known-project :which-key "add project")
+;;     "pf" '(projectile-find-file :which-key "find file in project")
+;;     "ps" '(projectile-save-project-buffers :which-key "save project buffers")
+;;     "pd" '(projectile-remove-known-project :which-key "remove known project"))
+(general-define-key
+:prefix "SPC"
+:keymaps 'normal
+"p" '(:keymap projectile-command-map :which-key "projectile" :package projectile))
+#+end_src
+
+#+RESULTS:
+*** Perspective
+#+begin_src emacs-lisp
+(general-define-key
+:prefix "SPC"
+:keymaps 'normal
+"TAB" '(:keymap perspective-map :which-key "workspaces" :package perspective))
+#+end_src
+
+#+RESULTS:
+
+*** Open
+#+begin_src emacs-lisp
+(prayag/leader-keys
+"o" '(:ignore t :which-key "open")
+"op" '(treemacs :which-key "treemacs")
+"ot" '(vterm-toggle :which-key "terminal")
+"oa" '(org-agenda :which-key "agenda")
+"oc" '(org-capture :which-key "capture")
+"od" '(dired :which-key "dired"))
+#+end_src
+
+#+RESULTS:
+*** Create
+#+begin_src emacs-lisp
+(prayag/leader-keys
+"c" '(:ignore t :which-key "create")
+"cp" '(create-project :which-key "project")
+"cd" '(make-directory :which-key "directory")
+"cf" '(make-empty-file :which-key "file"))
+#+end_src
+
+#+RESULTS:
+*** Org Roam
+#+begin_src emacs-lisp
+(prayag/leader-keys
+"n" '(:ignore t :which-key "notes")
+"nf" '(org-roam-node-find :which-key "find notes")
+"ni" '(org-roam-node-insert :which-key "terminal"))
+#+end_src
+
+*** Other
+#+begin_src emacs-lisp
+(prayag/leader-keys
+":" '(execute-extended-command :which-key "run commands"))
+#+end_src
+
+#+RESULTS:
+
+** Org gode
+*** Basic
+#+begin_src 
+(general-define-key
+:states 'normal
+:keymaps 'org-mode-map
+"TAB" 'org-cycle)
+#+end_src
+*** Clock
+#+begin_src emacs-lisp
+(prayag/leader-keys
+:states 'normal
+:keymaps 'org-mode-map
+
+"mc" '(:ignore t :which-key "clock")
+"mci" 'org-clock-in
+"mco" 'org-clock-out
+"mcR" 'org-clock-report
+"mct" 'org-evaluate-time-range
+"mcc" 'org-clock-cancel)
+#+end_src
+*** Dates
+#+begin_src emacs-lisp
+(prayag/leader-keys
+:states 'normal
+:keymaps 'org-mode-map
+
+"md" '(:ignore t :which-key "dates")
+"mdd" 'org-deadline
+"mds" 'org-schedule
+"mdt" 'org-time-stamp
+"mdT" 'org-time-stamp-inactive)
+#+end_src
+*** Priority
+#+begin_src emacs-lisp
+(prayag/leader-keys
+:states 'normal
+:keymaps 'org-mode-map
+
+"mp" '(:ignore t :which-key "priority")
+"mpd" 'org-priority-down
+"mpp" 'org-priority
+"mpu" 'org-priority-up)
+#+end_src
+*** Links
+#+begin_src emacs-lisp
+(prayag/leader-keys
+:states 'normal
+:keymaps 'org-mode-map
+
+"ml" '(:ignore t :which-key "links")
+"mll" 'org-insert-link
+"mls" 'org-store-link
+"mlS" 'org-insert-last-stored-link
+"mlt" 'org-toggle-link-display)
+#+end_src
+*** Other
+#+begin_src emacs-lisp
+(prayag/leader-keys
+:states 'normal
+:keymaps 'org-mode-map
+
+"m" '(:ignore t :which-key "org mode")
+"mt" 'org-todo
+"mx" 'org-toggle-checkbox)
+#+end_src
+**** 
+* UI Settings
+** Line Numbers
+#+begin_src emacs-lisp
+(global-display-line-numbers-mode t)
+(dolist (mode '(term-mode-hook
+            vterm-mode-hook
+            eshell-mode-hook))
+(add-hook mode (lambda () (display-line-numbers-mode 0))))
+#+end_src
+
+#+RESULTS:
+
+** Org Mode
+#+begin_src emacs-lisp
+(setq org-hide-leading-stars t)
+(evil-set-undo-system 'undo-redo)
+#+end_src
+
+#+RESULTS:
+: undo-redo
+
+** Save History
+#+begin_src emacs-lisp
+(setq history-length 10)
+(savehist-mode 1)
+#+end_src
+
+#+RESULTS:
+: t
+
+** Disable GUI dialogs
+#+begin_src emacs-lisp
+(setq use-dialog-box nil)
+#+end_src
+
+#+RESULTS:
+
+#+RESULTS:
+: t
+
+* Hooks
+** Org Mode
+#+begin_src emacs-lisp
+(defun prayag-org-mode-hook ()
+  (org-indent-mode 1)
+  (org-bullets-mode 1)
+  (setq org-src-preserve-indentation nil
+        org-edit-src-content-indentation 0))
+
+(add-hook 'org-mode-hook 'prayag-org-mode-hook)
+#+end_src
+
+#+RESULTS:
+** FlyCheck Mode
+#+begin_src emacs-lisp
+(add-hook 'after-init-hook #'global-flycheck-mode)
+#+end_src
+
+* Indentation
+The annoying indentation settings (gave me PTSD).
+#+begin_src emacs-lisp
+(setq indent-tabs-mode nil)
+#+end_src
+
+#+RESULTS:
+* Org Mode
+** Settings
+#+begin_src emacs-lisp
+(setq org-directory "~/my-stuff/agenda/")
+(setq org-agenda-files '("~/my-stuff/agenda/"))
+(setq org-extend-today-until 4)
+(setq org-image-actual-width 300)
+#+end_src
+
+#+RESULTS:
+: 300
+** Capture Templates
+#+begin_src emacs-lisp
+(setq org-capture-templates
+      `(("t" "Todo" entry (file+olp+datetree ,(concat org-directory "tasks.org") "Tasks")
+         "** TODO %?\n")
+        ("u" "Unscheduled tasks" entry (file+headline ,(concat org-directory "tasks.org") "Unscheduled Tasks")
+         "* TODO %?\n")
+        ("r" "Reflect" entry (file+datetree ,(concat org-directory "reflect.org"))
+         "* %U\nDid you make time for today's highlight? %?\nHow focused did you feel? \nHow much energy did you have? \nThe best thing that happened today was \nTomorrow's highlight will be \"\"")
+        ("c" "Quick capture" entry (file+datetree ,(concat org-directory "capture.org"))
+         "* %U\n %?\n")
+        ))
+#+end_src
+** Agenda and Todo
+#+begin_src emacs-lisp
+(setq org-todo-keywords
+'((type "MORN(m)" "TODO(t)" "BREAK(b)" "SHUT(s)" "|" "DONE(d)" "CANC(c)" "FAIL(f)")))
+
+(setq org-todo-keyword-faces
+'(("SHUT" . org-todo) ("MORN" . org-todo) ("BREAK" . org-todo)
+    ("CANC" . org-done) ("DONE" . org-done) ("FAIL" . org-done)))
+
+(setq org-agenda-sorting-strategy
+    '((agenda time-up priority-down)
+    (todo   priority-down category-keep)
+    (tags   priority-down category-keep)
+    (search category-keep)))
+
+(setq org-log-done 'time)
+(setq org-log-into-drawer t)
+(setq org-hide-emphasis-markers t)
+(setq org-agenda-start-with-log-mode t)
+(setq org-return-follows-link t)
+(setq org-agenda-window-setup 'only-window)
+#+end_src

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/greenflat.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1e2d25",
+        "foreground": "#dee9e9",
+        "cursor": "#dee9e9"
+    },
+    "colors": {
+        "color0": "#1e2d25",
+        "color1": "#82A49F",
+        "color2": "#92B6B4",
+        "color3": "#9CC1BE",
+        "color4": "#AABFC0",
+        "color5": "#AFD3D1",
+        "color6": "#AAD6D4",
+        "color7": "#dee9e9",
+        "color8": "#9ba3a3",
+        "color9": "#82A49F",
+        "color10": "#92B6B4",
+        "color11": "#9CC1BE",
+        "color12": "#AABFC0",
+        "color13": "#AFD3D1",
+        "color14": "#AAD6D4",
+        "color15": "#dee9e9"
+    }
+}

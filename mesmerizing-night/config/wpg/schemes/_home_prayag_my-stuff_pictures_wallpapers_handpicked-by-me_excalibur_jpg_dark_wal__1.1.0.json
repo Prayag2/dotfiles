@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/excalibur.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B121A",
+        "foreground": "#d8ddd1",
+        "cursor": "#d8ddd1"
+    },
+    "colors": {
+        "color0": "#0B121A",
+        "color1": "#51656A",
+        "color2": "#536A72",
+        "color3": "#8C9960",
+        "color4": "#667A84",
+        "color5": "#75898E",
+        "color6": "#9AAAA4",
+        "color7": "#d8ddd1",
+        "color8": "#979a92",
+        "color9": "#51656A",
+        "color10": "#536A72",
+        "color11": "#8C9960",
+        "color12": "#667A84",
+        "color13": "#75898E",
+        "color14": "#9AAAA4",
+        "color15": "#d8ddd1"
+    }
+}

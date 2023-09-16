@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/anime-sky-with-houses.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f131b",
+        "foreground": "#bfc2d0",
+        "cursor": "#bfc2d0"
+    },
+    "colors": {
+        "color0": "#0f131b",
+        "color1": "#54739A",
+        "color2": "#4B78AA",
+        "color3": "#70839C",
+        "color4": "#5686B6",
+        "color5": "#6C8CB3",
+        "color6": "#7198C1",
+        "color7": "#bfc2d0",
+        "color8": "#858791",
+        "color9": "#54739A",
+        "color10": "#4B78AA",
+        "color11": "#70839C",
+        "color12": "#5686B6",
+        "color13": "#6C8CB3",
+        "color14": "#7198C1",
+        "color15": "#bfc2d0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/mountainretreat.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D1722",
+        "foreground": "#bfd2de",
+        "cursor": "#bfd2de"
+    },
+    "colors": {
+        "color0": "#0D1722",
+        "color1": "#467799",
+        "color2": "#5D90B1",
+        "color3": "#76A5C5",
+        "color4": "#F7AF94",
+        "color5": "#FCD1B1",
+        "color6": "#FBDEB4",
+        "color7": "#bfd2de",
+        "color8": "#85939b",
+        "color9": "#467799",
+        "color10": "#5D90B1",
+        "color11": "#76A5C5",
+        "color12": "#F7AF94",
+        "color13": "#FCD1B1",
+        "color14": "#FBDEB4",
+        "color15": "#bfd2de"
+    }
+}

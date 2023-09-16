@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/gruv.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0e100e",
+        "foreground": "#dbd8d4",
+        "cursor": "#dbd8d4"
+    },
+    "colors": {
+        "color0": "#0e100e",
+        "color1": "#5F6258",
+        "color2": "#857560",
+        "color3": "#8B8779",
+        "color4": "#C68B55",
+        "color5": "#A7A59B",
+        "color6": "#C3BCB4",
+        "color7": "#dbd8d4",
+        "color8": "#999794",
+        "color9": "#5F6258",
+        "color10": "#857560",
+        "color11": "#8B8779",
+        "color12": "#C68B55",
+        "color13": "#A7A59B",
+        "color14": "#C3BCB4",
+        "color15": "#dbd8d4"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/nightmountainriver.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C0F1B",
+        "foreground": "#c9b7b7",
+        "cursor": "#c9b7b7"
+    },
+    "colors": {
+        "color0": "#0C0F1B",
+        "color1": "#30476A",
+        "color2": "#5B5064",
+        "color3": "#966B6D",
+        "color4": "#336295",
+        "color5": "#566C91",
+        "color6": "#6292B0",
+        "color7": "#c9b7b7",
+        "color8": "#8c8080",
+        "color9": "#30476A",
+        "color10": "#5B5064",
+        "color11": "#966B6D",
+        "color12": "#336295",
+        "color13": "#566C91",
+        "color14": "#6292B0",
+        "color15": "#c9b7b7"
+    }
+}

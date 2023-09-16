@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/chinese-street.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0A0818",
+        "foreground": "#99d0e6",
+        "cursor": "#99d0e6"
+    },
+    "colors": {
+        "color0": "#0A0818",
+        "color1": "#D69F61",
+        "color2": "#2B539C",
+        "color3": "#4553A8",
+        "color4": "#5A59A2",
+        "color5": "#B660A5",
+        "color6": "#5C9EDA",
+        "color7": "#99d0e6",
+        "color8": "#6b91a1",
+        "color9": "#D69F61",
+        "color10": "#2B539C",
+        "color11": "#4553A8",
+        "color12": "#5A59A2",
+        "color13": "#B660A5",
+        "color14": "#5C9EDA",
+        "color15": "#99d0e6"
+    }
+}

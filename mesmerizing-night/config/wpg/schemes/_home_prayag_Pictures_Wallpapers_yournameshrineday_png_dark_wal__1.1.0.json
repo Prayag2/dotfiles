@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/yournameshrineday.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101e19",
+        "foreground": "#accfe3",
+        "cursor": "#accfe3"
+    },
+    "colors": {
+        "color0": "#101e19",
+        "color1": "#A7644F",
+        "color2": "#518955",
+        "color3": "#698F62",
+        "color4": "#9B9B6E",
+        "color5": "#577788",
+        "color6": "#619FA5",
+        "color7": "#accfe3",
+        "color8": "#78909e",
+        "color9": "#A7644F",
+        "color10": "#518955",
+        "color11": "#698F62",
+        "color12": "#9B9B6E",
+        "color13": "#577788",
+        "color14": "#619FA5",
+        "color15": "#accfe3"
+    }
+}

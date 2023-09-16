@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Downloads/grid_1.png",
+    "alpha": "100",
+    "special": {
+        "background": "#060712",
+        "foreground": "#edc7c2",
+        "cursor": "#edc7c2"
+    },
+    "colors": {
+        "color0": "#060712",
+        "color1": "#533658",
+        "color2": "#67476B",
+        "color3": "#9C576F",
+        "color4": "#C46B75",
+        "color5": "#3D5793",
+        "color6": "#888BAC",
+        "color7": "#edc7c2",
+        "color8": "#a58b87",
+        "color9": "#533658",
+        "color10": "#67476B",
+        "color11": "#9C576F",
+        "color12": "#C46B75",
+        "color13": "#3D5793",
+        "color14": "#888BAC",
+        "color15": "#edc7c2"
+    }
+}

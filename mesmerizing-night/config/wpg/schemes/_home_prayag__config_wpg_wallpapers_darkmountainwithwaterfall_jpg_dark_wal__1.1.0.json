@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/darkmountainwithwaterfall.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0d0a1e",
+        "foreground": "#e599cd",
+        "cursor": "#e599cd"
+    },
+    "colors": {
+        "color0": "#0d0a1e",
+        "color1": "#BD256F",
+        "color2": "#53228F",
+        "color3": "#5E2492",
+        "color4": "#2A55B1",
+        "color5": "#A02FA7",
+        "color6": "#D42C98",
+        "color7": "#e599cd",
+        "color8": "#a06b8f",
+        "color9": "#BD256F",
+        "color10": "#53228F",
+        "color11": "#5E2492",
+        "color12": "#2A55B1",
+        "color13": "#A02FA7",
+        "color14": "#D42C98",
+        "color15": "#e599cd"
+    }
+}

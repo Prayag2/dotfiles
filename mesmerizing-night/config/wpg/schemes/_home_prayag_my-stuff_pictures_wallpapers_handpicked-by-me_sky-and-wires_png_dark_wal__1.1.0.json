@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/sky-and-wires.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c121a",
+        "foreground": "#e1dcd4",
+        "cursor": "#e1dcd4"
+    },
+    "colors": {
+        "color0": "#0c121a",
+        "color1": "#33678D",
+        "color2": "#4C7291",
+        "color3": "#647A8F",
+        "color4": "#6991AA",
+        "color5": "#7AA8C0",
+        "color6": "#9BA3A6",
+        "color7": "#e1dcd4",
+        "color8": "#9d9a94",
+        "color9": "#33678D",
+        "color10": "#4C7291",
+        "color11": "#647A8F",
+        "color12": "#6991AA",
+        "color13": "#7AA8C0",
+        "color14": "#9BA3A6",
+        "color15": "#e1dcd4"
+    }
+}

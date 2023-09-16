@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/landscape-anime.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#18090c",
+        "foreground": "#b2bab9",
+        "cursor": "#b2bab9"
+    },
+    "colors": {
+        "color0": "#18090c",
+        "color1": "#344855",
+        "color2": "#5E5757",
+        "color3": "#AC5943",
+        "color4": "#9E6959",
+        "color5": "#AE8671",
+        "color6": "#E89873",
+        "color7": "#b2bab9",
+        "color8": "#7c8281",
+        "color9": "#344855",
+        "color10": "#5E5757",
+        "color11": "#AC5943",
+        "color12": "#9E6959",
+        "color13": "#AE8671",
+        "color14": "#E89873",
+        "color15": "#b2bab9"
+    }
+}

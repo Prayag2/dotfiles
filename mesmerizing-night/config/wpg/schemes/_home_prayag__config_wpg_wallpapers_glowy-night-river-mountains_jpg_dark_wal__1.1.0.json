@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/glowy-night-river-mountains.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a0d1b",
+        "foreground": "#acbbd2",
+        "cursor": "#acbbd2"
+    },
+    "colors": {
+        "color0": "#0a0d1b",
+        "color1": "#334E8E",
+        "color2": "#3861A3",
+        "color3": "#485AA1",
+        "color4": "#5664A4",
+        "color5": "#996EA5",
+        "color6": "#BB7AAB",
+        "color7": "#acbbd2",
+        "color8": "#788293",
+        "color9": "#334E8E",
+        "color10": "#3861A3",
+        "color11": "#485AA1",
+        "color12": "#5664A4",
+        "color13": "#996EA5",
+        "color14": "#BB7AAB",
+        "color15": "#acbbd2"
+    }
+}

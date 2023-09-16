@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/scifiplanet.png",
+    "alpha": "100",
+    "special": {
+        "background": "#130f13",
+        "foreground": "#ddd2c6",
+        "cursor": "#ddd2c6"
+    },
+    "colors": {
+        "color0": "#130f13",
+        "color1": "#E9A531",
+        "color2": "#E3B337",
+        "color3": "#A78864",
+        "color4": "#D6A256",
+        "color5": "#F8D65B",
+        "color6": "#5D7284",
+        "color7": "#ddd2c6",
+        "color8": "#9a938a",
+        "color9": "#E9A531",
+        "color10": "#E3B337",
+        "color11": "#A78864",
+        "color12": "#D6A256",
+        "color13": "#F8D65B",
+        "color14": "#5D7284",
+        "color15": "#ddd2c6"
+    }
+}

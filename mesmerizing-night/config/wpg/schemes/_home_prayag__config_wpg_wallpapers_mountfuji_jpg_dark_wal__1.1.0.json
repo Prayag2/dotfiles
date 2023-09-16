@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/mountfuji.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#101212",
+        "foreground": "#ceccc9",
+        "cursor": "#ceccc9"
+    },
+    "colors": {
+        "color0": "#101212",
+        "color1": "#5B6562",
+        "color2": "#6D746F",
+        "color3": "#7C8079",
+        "color4": "#86857B",
+        "color5": "#7A8583",
+        "color6": "#8F938E",
+        "color7": "#ceccc9",
+        "color8": "#908e8c",
+        "color9": "#5B6562",
+        "color10": "#6D746F",
+        "color11": "#7C8079",
+        "color12": "#86857B",
+        "color13": "#7A8583",
+        "color14": "#8F938E",
+        "color15": "#ceccc9"
+    }
+}

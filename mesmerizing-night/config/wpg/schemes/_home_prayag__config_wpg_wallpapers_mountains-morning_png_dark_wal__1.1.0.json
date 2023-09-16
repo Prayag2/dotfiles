@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/prayag/.config/wpg/wallpapers/mountains-morning.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0E141C",
+        "foreground": "#c1c9d1",
+        "cursor": "#c1c9d1"
+    },
+    "colors": {
+        "color0": "#0E141C",
+        "color1": "#3F5D81",
+        "color2": "#4F7296",
+        "color3": "#517496",
+        "color4": "#5D86A7",
+        "color5": "#688AA6",
+        "color6": "#6890AE",
+        "color7": "#c1c9d1",
+        "color8": "#878c92",
+        "color9": "#3F5D81",
+        "color10": "#4F7296",
+        "color11": "#517496",
+        "color12": "#5D86A7",
+        "color13": "#688AA6",
+        "color14": "#6890AE",
+        "color15": "#c1c9d1"
+    }
+}

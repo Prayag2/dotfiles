@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/my-stuff/pictures/wallpapers/handpicked-by-me/yournameclouds.png",
+    "alpha": "100",
+    "special": {
+        "background": "#100515",
+        "foreground": "#e7e1cb",
+        "cursor": "#e7e1cb"
+    },
+    "colors": {
+        "color0": "#100515",
+        "color1": "#DF9C60",
+        "color2": "#F6C54E",
+        "color3": "#B66E8C",
+        "color4": "#67A4D7",
+        "color5": "#A9A3A1",
+        "color6": "#D1AC93",
+        "color7": "#e7e1cb",
+        "color8": "#a19d8e",
+        "color9": "#DF9C60",
+        "color10": "#F6C54E",
+        "color11": "#B66E8C",
+        "color12": "#67A4D7",
+        "color13": "#A9A3A1",
+        "color14": "#D1AC93",
+        "color15": "#e7e1cb"
+    }
+}

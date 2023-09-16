@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/prayag/Pictures/Wallpapers/wavesdark.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#02313E",
+        "foreground": "#e3e2c3",
+        "cursor": "#e3e2c3"
+    },
+    "colors": {
+        "color0": "#02313E",
+        "color1": "#428F79",
+        "color2": "#F78C48",
+        "color3": "#F1AF6B",
+        "color4": "#EEC17E",
+        "color5": "#72A582",
+        "color6": "#A0BA8B",
+        "color7": "#e3e2c3",
+        "color8": "#9e9e88",
+        "color9": "#428F79",
+        "color10": "#F78C48",
+        "color11": "#F1AF6B",
+        "color12": "#EEC17E",
+        "color13": "#72A582",
+        "color14": "#A0BA8B",
+        "color15": "#e3e2c3"
+    }
+}
