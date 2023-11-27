@@ -1,0 +1,8 @@
+export SUDO_PROMPT="$(tput setaf 4 bold)Enter Password:$(tput sgr0) "
+export PATH="$HOME/.local/bin/:$HOME/.cargo/bin/:$PATH"
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export QT_ENABLE_HIGHDPI_SCALING=1
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
+source ~/.cache/wal/colors.sh
+export colorBgAlpha="#d9${color0/'#'}"

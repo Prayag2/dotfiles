@@ -1,1 +1,0 @@
-/home/prayag/my-stuff/projects/completed/bash/bspwm-dynamic-desktops/bspdd.sh

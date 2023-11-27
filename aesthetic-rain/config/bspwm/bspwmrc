@@ -1,0 +1,54 @@
+#! /bin/sh
+
+#PYWAL
+. "${HOME}/.cache/wal/colors.sh"
+
+
+#bspc monitor -d 1 2 3 4 5
+#bspc monitor -d    ﭮ   
+
+bspc config normal_border_color "$color1"
+bspc config focused_border_color "$color10"
+bspc config border_width         2
+bspc config window_gap          5
+bspc config focus_follows_pointer true
+#bspc config bottom_padding -10
+
+bspc config split_ratio          0.50
+bspc config borderless_monocle   true
+bspc config single_monocle       true
+bspc config gapless_monocle      true
+
+bspc rule -a "Blueman-manager" state=floating
+bspc rule -a Emacs state=tiled
+bspc rule -a "ru-turikhay-tlauncher-bootstrap-Bootstrap" state=floating
+bspc rule -a "Yad" state=floating
+bspc rule -a MEGAsync state=floating border=off
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+bspc config pointer_motion_interval 1
+
+# autostart
+compfy -fb --backend glx --config ~/.config/compfy/compfy.conf &
+setxkbmap us &
+xsetroot -cursor_name left_ptr
+xrdb -merge ~/.Xresources &
+wal -R
+killall -KILL xidlehook
+xidlehook --not-when-fullscreen --timer 900 "systemctl suspend" "" --socket "/tmp/xidlehook.sock" &
+xidlehook --not-when-fullscreen --timer 300 "betterlockscreen -l" "" --socket "/tmp/xidlehook.sock" &
+~/.local/bin/video-wall.sh
+pgrep -u $(whoami) -f "xss-lock" || xss-lock -- betterlockscreen --lock &
+pgrep -u $(whoami) -f "polybar" || ~/.local/bin/launchbar.sh &
+pgrep -u $(whoami) -f "emacs" || emacs --daemon &
+pgrep -u $(whoami) -f "sxhkd" || sxhkd &
+pgrep -u $(whoami) -f "dunst" || dunst &
+pgrep -u $(whoami) -f "greenclip" || greenclip daemon &
+pgrep -u $(whoami) -f "bspdd.sh" || ~/.local/bin/bspdd.sh &
+pgrep -u $(whoami) -f "lxsession" || lxsession -s BSPWM -e BSPWM &
+pgrep -u $(whoami) -f "kdeconnect-indicator" || sleep 2 && kdeconnect-indicator &
+#pgrep -u $(whoami) -f "syncthing" || syncthing --no-browser &
