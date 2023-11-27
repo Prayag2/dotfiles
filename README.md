@@ -2,6 +2,9 @@
 <img src="https://github.com/Prayag2/dotfiles/blob/main/assets/logo.png" style="width: 100%">
 ---
 
+### Aesthetic Rain
+<img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss-aesthetic-rain.png" style="width: 100%">
+
 ### Nord (My First Rice)
 <img src="https://github.com/Prayag2/dotfiles/blob/main/screenshots/ss.jpg" style="width: 100%">
 
